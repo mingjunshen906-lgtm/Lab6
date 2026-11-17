@@ -1,3 +1,10 @@
+:root {
+    --bs-primary-bg: #6f4e37;
+    --bs-primary-fg: #6f4e37;
+    --bs-primary-fg-emphasis: #4a2c20;
+    --bs-primary-border: #6f4e37;
+    --bs-primary-focus-ring: #6f4e37;
+    --bs-primary-contrast: #fff;}
 .btn-solid.theme-primary {
     --bs-theme-bg: #6f4e37;
     --bs-theme-border: #6f4e37;
