@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Café | Contact</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar md:navbar-expand bg-1 fg-2">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="index.html">
+                    Campus Café
+                </a>
+
+                <button class="btn-icon navbar-toggler" type="button"
+                        data-bs-toggle="drawer"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"
+                          aria-hidden="true"></span>
+                </button>
+
+                <dialog class="drawer drawer-end" tabindex="-1"
+                        id="navbarNav"
+                        aria-labelledby="navbarNavLabel">
+
+                    <div class="drawer-header">
+                        <h2 class="drawer-title"
+                            id="navbarNavLabel">Menu</h2>
+                        <button type="button" class="btn-close"
+                                data-bs-dismiss="drawer"
+                                aria-label="Close"></button>
+                    </div>
+
+                    <div class="drawer-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                   href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                   href="#">Our Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active"
+                                   aria-current="page"
+                                   href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </dialog>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+
+        <h1>Contact Campus Café</h1>
+        <p>
+            Have a question or suggestion?
+            We'd love to hear from you!
+        </p>
+
+        <form>
+
+            <div class="row g-4">
+
+                <!-- First Name -->
+                <div class="col-12 md:col-6">
+                    <div class="form-field">
+                        <label for="firstName" class="form-label">
+                            First Name
+                        </label>
+                        <input type="text"
+                               class="form-control"
+                               id="firstName"
+                               name="firstName"
+                               required>
+                    </div>
+                </div>
+
+                <!-- Last Name -->
+                <div class="col-12 md:col-6">
+                    <div class="form-field">
+                        <label for="lastName" class="form-label">
+                            Last Name
+                        </label>
+                        <input type="text"
+                               class="form-control"
+                               id="lastName"
+                               name="lastName"
+                               required>
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="col-12 md:col-6">
+                    <div class="form-field">
+                        <label for="email" class="form-label">
+                            Email
+                        </label>
+                        <input type="email"
+                               class="form-control"
+                               id="email"
+                               name="email"
+                               placeholder="you@example.com"
+                               required>
+                    </div>
+                </div>
+
+                <!-- Inquiry Type -->
+                <div class="col-12 md:col-6">
+                    <div class="form-field">
+                        <label for="inquiry" class="form-label">
+                            Inquiry Type
+                        </label>
+                        <select class="form-control"
+                                id="inquiry"
+                                name="inquiry"
+                                required>
+                            <option value="">Choose an option</option>
+                            <option value="menu">Menu Question</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="event">Event Inquiry</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Message -->
+                <div class="col-12">
+                    <div class="form-field">
+                        <label for="message" class="form-label">
+                            Message
+                        </label>
+                        <textarea class="form-control"
+                                  id="message"
+                                  name="message"
+                                  rows="5"
+                                  required></textarea>
+                    </div>
+                </div>
+
+                <!-- Consent Checkbox -->
+                <div class="col-12">
+                    <div class="form-field">
+                        <input type="checkbox"
+                               class="check"
+                               id="consent"
+                               name="consent"
+                               required>
+                        <label for="consent">
+                            I agree to be contacted by Campus Café.
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit"
+                    class="btn-solid theme-primary mt-4">
+                Submit
+            </button>
+
+        </form>
+
+    </main>
+
+    <footer class="bg-1 p-4 text-center">
+        <p>© 2026 Campus Café. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

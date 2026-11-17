@@ -125,10 +125,10 @@
             <h2>Explore Our Menu</h2>
             <div class="row g-4">
 
-                    <!-- Card 1: Latte -->
+                <!-- Card 1: Latte -->
                 <div class="col-12 md:col-6 lg:col-4">
                 <article class="card h-100">
-                    <img src="images/coffee1.jpg"
+                    <img src="images/coffee1.jpeg"
                      class="card-img-top"
                      alt="latte with cream top">
 
@@ -165,15 +165,221 @@
             </div>
         </section>
 
-    <!-- Dialog 1 -->
-    <dialog class="dialog" id="coffeeDialog1"
-        aria-labelledby="coffeeDialogTitle1">
+            <!-- Dialog 1 -->
+            <dialog class="dialog" id="coffeeDialog1"
+                aria-labelledby="coffeeDialogTitle1">
+
+                <div class="dialog-header">
+                    <h2 class="dialog-title" id="coffeeDialogTitle1">
+                    Latte
+                    </h2>
+            
+                    <button type="button" class="btn-close"
+                    data-bs-dismiss="dialog"
+                    aria-label="Close">
+                    </button>
+                </div>
+
+                <div class="dialog-body">
+                <p>
+                Enjoy our classic Latte, made with
+                rich espresso and perfectly steamed milk.
+                A great choice for your study break!
+                </p>
+                </div>
+
+                <div class="dialog-footer">
+                    <button type="button"
+                    class="btn-solid theme-primary"
+                    data-bs-dismiss="dialog">
+                    Close
+                    </button>
+                </div>
+            </dialog>
+
+        </section>
+        
+    </main>
+
+    <!-- Card 2: Cappuccino -->
+    <div class="col-12 md:col-6 lg:col-4">
+        <article class="card h-100">
+
+        <img src="images/coffee2.png"
+             class="card-img-top"
+             alt="Cappuccino with a thick layer of milk foam">
+
+        <div class="card-body">
+            <h3 class="card-title">Cappuccino</h3>
+
+            <p class="card-text">
+                A rich espresso drink topped with steamed
+                milk and a thick layer of foam.
+            </p>
+
+            <details class="accordion-item">
+                <summary class="accordion-header">
+                    Drink Details
+                </summary>
+                <div class="accordion-body">
+                    Our cappuccino combines espresso,
+                    steamed milk, and airy foam for
+                    a balanced coffee experience.
+                </div>
+            </details>
+
+            <button type="button"
+                    class="btn-solid theme-primary mt-3"
+                    data-bs-toggle="dialog"
+                    data-bs-target="#coffeeDialog2">
+                Learn More
+            </button>
+        </div>
+
+            </article>
+    </div>
+
+    <!-- Dialog 2 -->
+    <dialog class="dialog" id="coffeeDialog2"
+        aria-labelledby="coffeeDialogTitle2">
+
+    <div class="dialog-header">
+        <h2 class="dialog-title" id="coffeeDialogTitle2">
+            Cappuccino
+        </h2>
+        <button type="button" class="btn-close"
+                data-bs-dismiss="dialog"
+                aria-label="Close"></button>
+    </div>
+
+    <div class="dialog-body">
+        <p>
+            Enjoy our classic cappuccino with rich
+            espresso and perfectly textured milk foam.
+            A comforting choice for any study session.
+        </p>
+    </div>
+
+    <div class="dialog-footer">
+        <button type="button"
+                class="btn-solid theme-primary"
+                data-bs-dismiss="dialog">Close</button>
+    </div>
+    </dialog>
+
+    <!-- Card 3: Americano -->
+    <div class="col-12 md:col-6 lg:col-4">
+        <article class="card h-100">
+
+        <img src="images/coffee3.jpg"
+             class="card-img-top"
+             alt="Iced Americano served in a clear glass">
+
+        <div class="card-body">
+            <h3 class="card-title">Americano</h3>
+
+            <p class="card-text">
+                A bold and refreshing coffee made
+                with espresso and water.
+            </p>
+
+            <details class="accordion-item">
+                <summary class="accordion-header">
+                    Drink Details
+                </summary>
+                <div class="accordion-body">
+                    Made with freshly pulled espresso
+                    and water, our Americano is perfect
+                    for those who enjoy strong coffee.
+                </div>
+            </details>
+
+            <button type="button"
+                    class="btn-solid theme-primary mt-3"
+                    data-bs-toggle="dialog"
+                    data-bs-target="#coffeeDialog3">
+                Learn More
+            </button>
+        </div>
+
+        </article>
+    </div>
+    
+    <!-- Dialog 3 -->
+    <dialog class="dialog" id="coffeeDialog3"
+        aria-labelledby="coffeeDialogTitle3">
 
         <div class="dialog-header">
-            <h2 class="dialog-title" id="coffeeDialogTitle1">
-            Latte
+            <h2 class="dialog-title" id="coffeeDialogTitle3">
+            Americano
             </h2>
-            
+        <button type="button" class="btn-close"
+                data-bs-dismiss="dialog"
+                aria-label="Close"></button>
+        </div>
+
+        <div class="dialog-body">
+            <p>
+            Our Americano delivers the bold taste
+            of freshly brewed espresso. Enjoy it
+            hot or iced for a refreshing break.
+            </p>
+        </div>
+
+        <div class="dialog-footer">
+            <button type="button"
+                class="btn-solid theme-primary"
+                data-bs-dismiss="dialog">Close
+            </button>
+        </div>
+    </dialog>
+    
+    <!-- Card 4: Mocha -->
+    <div class="col-12 md:col-6 lg:col-4">
+        <article class="card h-100">
+
+        <img src="images/coffee4.png"
+             class="card-img-top"
+             alt="Mocha coffee topped with whipped cream and chocolate">
+
+        <div class="card-body">
+            <h3 class="card-title">Mocha</h3>
+
+            <p class="card-text">
+                A delicious blend of espresso,
+                steamed milk, and chocolate.
+            </p>
+
+            <details class="accordion-item">
+                <summary class="accordion-header">
+                    Drink Details
+                </summary>
+                <div class="accordion-body">
+                    Our mocha combines rich chocolate
+                    with smooth espresso and milk.
+                    A sweet treat for your coffee break.
+                </div>
+            </details>
+
+            <button type="button"
+                    class="btn-solid theme-primary mt-3"
+                    data-bs-toggle="dialog"
+                    data-bs-target="#coffeeDialog4">
+                Learn More
+            </button>
+        </div>
+
+        </article>
+    </div>
+
+    <!-- Dialog 4 -->
+    <dialog class="dialog" id="coffeeDialog4"
+        aria-labelledby="coffeeDialogTitle4">
+
+        <div class="dialog-header">
+            <h2 class="dialog-title" id="coffeeDialogTitle4">
+            Mocha
+            </h2>
             <button type="button" class="btn-close"
                 data-bs-dismiss="dialog"
                 aria-label="Close">
@@ -182,28 +388,126 @@
 
         <div class="dialog-body">
             <p>
-            Enjoy our classic Latte, made with
-            rich espresso and perfectly steamed milk.
-            A great choice for your study break!
+            Treat yourself to our delicious mocha,
+            combining espresso, milk, and rich
+            chocolate for a sweet coffee experience.
+            </p>
+        </div>
+
+        <div class="dialog-footer">
+        <button type="button"
+                class="btn-solid theme-primary"
+                data-bs-dismiss="dialog">Close</button>
+        </div>
+    </dialog>
+
+    <!-- Card 5: Matcha Latte -->
+<div class="col-12 md:col-6 lg:col-4">
+    <article class="card h-100">
+
+        <img src="images/coffee5.jpeg"
+             class="card-img-top"
+             alt="Green matcha latte served with creamy milk">
+
+        <div class="card-body">
+            <h3 class="card-title">Matcha Latte</h3>
+
+            <p class="card-text">
+                A creamy green tea drink made
+                with matcha powder and milk.
+            </p>
+
+            <details class="accordion-item">
+                <summary class="accordion-header">
+                    Drink Details
+                </summary>
+                <div class="accordion-body">
+                    Our matcha latte uses finely ground
+                    green tea powder blended with milk.
+                    Available hot or iced.
+                </div>
+            </details>
+
+            <button type="button"
+                    class="btn-solid theme-primary mt-3"
+                    data-bs-toggle="dialog"
+                    data-bs-target="#coffeeDialog5">
+                Learn More
+            </button>
+        </div>
+
+    </article>
+</div>
+
+    <!-- Card 6: Caramel Macchiato -->
+    <div class="col-12 md:col-6 lg:col-4">
+        <article class="card h-100">
+
+            <img src="images/coffee6.jpg"
+             class="card-img-top"
+             alt="Caramel macchiato with caramel drizzle">
+
+        <div class="card-body">
+                <h3 class="card-title">Caramel Macchiato</h3>
+
+                <p class="card-text">
+                A sweet espresso drink with
+                vanilla, milk, and caramel.
+                </p>
+
+            <details class="accordion-item">
+                <summary class="accordion-header">
+                    Drink Details
+                </summary>
+                <div class="accordion-body">
+                    Our caramel macchiato features
+                    vanilla-flavoured milk, espresso,
+                    and a drizzle of caramel sauce.
+                </div>
+            </details>
+
+            <button type="button"
+                    class="btn-solid theme-primary mt-3"
+                    data-bs-toggle="dialog"
+                    data-bs-target="#coffeeDialog6">
+                Learn More
+            </button>
+        </div>
+        </article>
+    </div>
+    
+    <!-- Dialog 6 -->
+    <dialog class="dialog" id="coffeeDialog6"
+        aria-labelledby="coffeeDialogTitle6">
+
+        <div class="dialog-header">
+            <h2 class="dialog-title" id="coffeeDialogTitle6">
+            Caramel Macchiato
+            </h2>
+            <button type="button" class="btn-close"
+                data-bs-dismiss="dialog"
+                aria-label="Close">
+            </button>
+        </div>
+
+        <div class="dialog-body">
+            <p>
+            Our caramel macchiato combines smooth
+            vanilla, rich espresso, and sweet caramel.
+            Perfect for a relaxing afternoon.
             </p>
         </div>
 
         <div class="dialog-footer">
             <button type="button"
                 class="btn-solid theme-primary"
-                data-bs-dismiss="dialog">
-            Close
+                data-bs-dismiss="dialog">Close
             </button>
         </div>
     </dialog>
 
-        </section>
-    </main>
 
-    
-    
-    
-    
+
     <footer class="bg-1 p-4 text-center">
         <p>© 2026 Campus Café. All rights reserved.</p>
     </footer>

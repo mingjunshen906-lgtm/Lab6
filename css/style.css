@@ -1,0 +1,27 @@
+:root {
+    --bs-primary-bg: #6F4E37;
+    --bs-primary-fg: #6F4E37;
+    --bs-primary-fg-emphasis: #4A2C20;
+    --bs-primary-border: #6F4E37;
+    --bs-primary-focus-ring: #6F4E37;
+    --bs-primary-contrast: #FFFFFF;
+}
+.btn-solid.theme-primary {
+    --bs-theme-bg: #6F4E37;
+    --bs-theme-border: #6F4E37;
+    --bs-theme-contrast: #FFFFFF;
+}
+.navbar .nav-link:hover {
+    color: #6F4E37;
+    font-weight: bold;
+}
+.carousel-item img {
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    object-fit: cover;
+}
+.card-img-top {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
